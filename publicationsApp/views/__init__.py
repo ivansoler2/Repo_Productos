@@ -1,0 +1,2 @@
+from .productCategoryView import ProductCategoryListCreateView, ProductCategoryRetrieveUpdateDestroy
+from .publicationView import PublicationListCreateView, PublicationRetrieveUpdateDestroyView

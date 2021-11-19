@@ -1,0 +1,6 @@
+django
+djangorestframework
+psycopg2
+Pillow
+cloudinary
+dj3-cloudinary-storage
