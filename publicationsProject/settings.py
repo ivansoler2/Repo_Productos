@@ -87,10 +87,10 @@ WSGI_APPLICATION = 'publicationsProject.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'ddfouati5s7and',
-        'USER': 'rbdwignlacymuo',
-        'PASSWORD': '78cdc6aa320121ce2992b62563a04009ec591d147bb775db171291a7815a74df',
-        'HOST': 'ec2-52-204-213-254.compute-1.amazonaws.com',
+        'NAME': 'd5cufhrgeclslg',
+        'USER': 'kqyqhjelpdznsu',
+        'PASSWORD': 'f902cab311b769c71b17096b553cf27b1cdb95ae5824222a8e0c0f204fb2051b',
+        'HOST': 'ec2-35-171-250-21.compute-1.amazonaws.com',
         'PORT': '5432',
     }
 }
@@ -138,3 +138,5 @@ STATIC_URL = '/static/'
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+import django_heroku
+django_heroku.settings(locals())
